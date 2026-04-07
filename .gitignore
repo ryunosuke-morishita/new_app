@@ -1,0 +1,25 @@
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境 (ここを記述することで、フォルダごとUPされるのを防ぎます)
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit固有の設定・キャッシュ
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# OS固有のファイル
+.DS_Store
+
+# データファイル (もし巨大なCSVなどを上げたくない場合)
+# *.csv
+# *.xlsx
+
+# エディタ設定
+.vscode/
+.idea/
